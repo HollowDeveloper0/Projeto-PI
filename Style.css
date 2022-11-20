@@ -113,3 +113,25 @@ main {
 .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
 }
+
+.con {
+    position: fixed;
+    top: 80vh;
+    bottom: 50%;
+    right: 55%;
+    width: 25vw;
+    height: 60vh;
+}
+
+
+
+.oi {
+    position: absolute;
+    top: 20vh;
+    bottom: 50%;
+    right: 55%;
+    width: 25vw;
+    height: 60vh;
+    background: #fdfdff;
+    border: 2px solid #3356B0;
+}
