@@ -130,8 +130,76 @@ main {
     top: 20vh;
     bottom: 50%;
     right: 55%;
-    width: 25vw;
-    height: 60vh;
+    width: 50vh;
+    height: 76vh;
     background: #fdfdff;
     border: 2px solid #3356B0;
+    border-radius: 15px;
 }
+
+.hi {
+    position: absolute;
+    top: 22vh;
+    bottom: 50%;
+    right: 38%;
+    width: 40vw;
+    height: 70vh;
+              
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.container {
+    position: fixed;
+    top: 10vh;
+    bottom: 35%;
+    right: 30%;
+    height: 60vh;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.principal {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 15px;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+	background-color: rgb(255, 255, 255);
+	margin: 0 auto;
+	padding: 20px;
+	min-width: 250px;
+	max-width: 500px;
+	user-select: none;
+    border: 2px solid #3356B0;
+}
+
+.tempo {
+	font-size: 2rem;
+}
+
+button {
+  border: 0;
+  padding: 8px 20px;
+  margin: 0 2px 5px 0;
+  border-radius: 5px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 15px;
+  background-color: #9F84D5;
+  color: rgb(0, 0, 0);
+	cursor: pointer;
+	outline: none;
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.9);
+}
+
+button:active {
+	transform: scale(0.98);
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+
+
+ 
